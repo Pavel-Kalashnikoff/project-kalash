@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+.center {
+	padding-left: calc(50% - 600px);
+	padding-right: calc(50% - 600px);
+}
+.header {
+	height: 782px;
+	background-image: url(./IMG/fon\ 0.jpg);
+}
+.header_top {
+	height: 782px;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url(./IMG/fon\ 2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.icons {
+	position: absolute;
+	padding-left: 165px;
+	padding-top: 35px;
+}
+.header_nav {
+	padding-left: 401px;
+	padding-top: 61px;
+	display: flex;
+	gap: 22px;
+	color: aliceblue;
+}
+.title {
+	margin-top: 179px;
+	padding-left: 250px;
+	padding-right: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+.titile_content {
+	font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
+text-transform: uppercase;
+color: aliceblue;
+}
+.sub_title {
+	width: 540px;
+	font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%;
+color: aliceblue;
+text-align: center;
+}
+.button {
+	border: none;
+	padding: 16px 52px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	color: brown;
+	
+}
